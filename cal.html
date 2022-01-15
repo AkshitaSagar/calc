@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="cal.css"/>
+    </head>
+    <body>
+       
+      <div>
+        <b >Calculator</b>
+        <br/>
+        <br/>
+          <table>
+              <thead>
+                  <th>
+                      <p id="display">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0/-</p>
+                      <tr></tr>
+                  </th>
+                  <th  class="box">
+                      <button onclick="Clearall('C');">C</button>
+                      <button onclick="deletelast('←');">←</button>
+                      <button onclick="equal('=');">=</button>
+                      <button onclick="set('/');">/</button>
+                      <tr></tr>
+                      <th class="box">
+                          <button onclick="Concate('7');">7</button>
+                          <button onclick="Concate('8');">8</button>
+                          <button onclick="Concate('9');">9</button>
+                          <button onclick="set('*');">*</button>
+                      </th>
+                      <tr></tr>
+                      <th class="box">
+                          <button onclick="Concate('4');">4</button>
+                          <button onclick="Concate('5');">5</button>
+                          <button onclick="Concate('6');">6</button>
+                          <button onclick="set('-');">-</button>
+                      </th>
+                      <tr></tr>
+                      <th class="box">
+                          <button onclick="Concate('1');">1</button>
+                          <button onclick="Concate('2');">2</button>
+                          <button onclick="Concate('3');">3</button>
+                          <button onclick="set('+');">+</button>
+                      </th>
+                    </th>
+              </thead>
+          </table>
+      </div>
+      <script src="cal.js"></script>
+
+    </body>
+</html>

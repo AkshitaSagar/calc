@@ -1,0 +1,20 @@
+div{
+    border:  1px solid black;
+    width: 300px;
+    height: 300px;
+    padding-left:  180px;
+    padding-top: 80px;
+    margin-left: 470px;
+    margin-top: 150px;
+    background-color: lightblue;
+}
+#display{
+    border:  2px solid black;
+}
+.box{
+    border:  2px solid black;
+    height: 35px;
+}
+body{
+    background-color:  black;
+}
